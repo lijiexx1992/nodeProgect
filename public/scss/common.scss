@@ -58,7 +58,9 @@ body {
     }
 
     .seacrh-bar {
-        margin: 20px 0;
+        .form-control {
+            margin: 20px 0;
+        }
     }
 }
 
