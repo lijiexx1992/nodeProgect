@@ -42,6 +42,15 @@ body {
   .lj-main .lj-boyd {
     flex: 1;
     padding: 0 10px; }
+    .lj-main .lj-boyd h1 {
+      width: 100%;
+      font-size: 40px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center; }
+    .lj-main .lj-boyd img {
+      margin: 50px auto;
+      display: block; }
   .lj-main .formPhone {
     width: 100%;
     height: 80px;

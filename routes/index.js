@@ -2,8 +2,18 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+// router.get('/', function(req, res, next) {
+//   res.render('index', { title: 'express' });
+// });
+
+//打开是到登陆页面
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'express' });
+  res.render('loging');
+});
+
+//点击注册跳转到注册页面
+router.get('/register.html', function(req, res, next) {
+  res.render('register');
 });
 
 router.get('/users.html',function(req,res){
