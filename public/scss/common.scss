@@ -57,6 +57,15 @@ body {
         padding: 0 10px;
     }
 
+    .formPhone {
+        width: 100%;
+        height: 80px;
+        border: 1px solid #000;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+
     .seacrh-bar {
         .form-control {
             margin: 20px 0;
