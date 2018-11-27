@@ -2,7 +2,8 @@ body {
   height: 100%;
   background: url(/images/bgc.jpeg);
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .box {
   width: 400px;
@@ -12,11 +13,18 @@ body {
   display: flex;
   align-items: center;
   background-color: aqua;
-  opacity: 0.9; }
-  .box form {
-    flex: 1;
-    margin: 0px 72px; }
-    .box form p {
-      margin: 10px 0px; }
-    .box form label {
-      margin: 5px 0px; }
+  opacity: 0.9;
+}
+
+.box form {
+  flex: 1;
+  margin: 0px 72px;
+}
+
+.box form p {
+  margin: 10px 0px;
+}
+
+.box form label {
+  margin: 5px 0px;
+}
